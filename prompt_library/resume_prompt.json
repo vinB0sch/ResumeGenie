@@ -1,0 +1,15 @@
+{
+    "name": null,
+    "input_variables": [
+        "resume_text"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are a professional Career and Resume advisor. Based on the user's resume, extract skills, experience, technologies and qualifications.\nUser Info:\n- Resume Text: {resume_text}\nKeep the tone Professional, concise and informative.",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}

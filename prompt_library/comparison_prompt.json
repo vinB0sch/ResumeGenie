@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "job_description_info",
+        "resume_info"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are a professional Career and Resume advisor. Based on the extracted information from the user's resume and the job description, compare the two and provide an assessment of the candidate's suitability for the role. Highlight missing skills, strengths, and provide an overall suitability assessment.\nResume Info:\n- Skills, Experience, Technologies, Qualifications: {resume_info}\nJob Description Info:\n- Required Skills, Responsibilities, Qualifications: {job_description_info}\nKeep the tone Professional, concise and informative.",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
